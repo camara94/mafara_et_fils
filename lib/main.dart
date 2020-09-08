@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mafara_et_fils/authenticate/authenticate.dart';
 import 'package:mafara_et_fils/menu/collapsing_navigation_drawer_widget.dart';
 import 'package:mafara_et_fils/menu/theme.dart';
+import 'package:mafara_et_fils/wrapper.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,7 +30,8 @@ class MyHomePage extends StatelessWidget {
         title: Text("Etablissement Manfara & Fils",),
       ),
       drawer: CollapsingNavigationDrawer(),
-      /*body: Stack(
+      body: Autheticate()
+      /*Stack(
         children: <Widget>[
           Container(color: selectedColor,),
           CollapsingNavigationDrawer()
