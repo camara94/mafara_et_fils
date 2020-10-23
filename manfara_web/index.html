@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Grud en firestore</title>
+	</head>
+	<body>
+		<h1>Bonjour Firebase</h1>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
+
+		<script>
+		  // Your web app's Firebase configuration
+		  var firebaseConfig = {
+		    apiKey: "AIzaSyAJxNogrvZouAjpgpMD2i-3KYyAH-KZZko",
+		    authDomain: "etablissementmafaraetfil-9c12f.firebaseapp.com",
+		    databaseURL: "https://etablissementmafaraetfil-9c12f.firebaseio.com",
+		    projectId: "etablissementmafaraetfil-9c12f",
+		    storageBucket: "etablissementmafaraetfil-9c12f.appspot.com",
+		    messagingSenderId: "726028982458",
+		    appId: "1:726028982458:web:71ccac15e6e5d557004a83",
+		    measurementId: "G-WQ6B88J8J4"
+		  };
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+		  firebase.analytics();
+		  
+		  let db = firebase.firestore()
+		  var database = firebase.database();
+		  console.log(database);
+
+
+
+
+		</script>
+
+	</body>
+</html>
