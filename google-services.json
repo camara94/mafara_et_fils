@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "726028982458",
+    "firebase_url": "https://etablissementmafaraetfil-9c12f.firebaseio.com",
+    "project_id": "etablissementmafaraetfil-9c12f",
+    "storage_bucket": "etablissementmafaraetfil-9c12f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726028982458:android:b5fb3374b2ec2a33004a83",
+        "android_client_info": {
+          "package_name": "com.example.mafara_et_fils"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726028982458-os5olipachcqip7d4bdg565ld4pnq1uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSibz3suALJwNUBXIGSJWRNH_aljT9wAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726028982458-os5olipachcqip7d4bdg565ld4pnq1uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
