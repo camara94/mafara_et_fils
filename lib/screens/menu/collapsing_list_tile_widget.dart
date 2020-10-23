@@ -4,23 +4,32 @@ import 'package:flutter/material.dart';
 class CollapsingListTile extends StatefulWidget {
   final String title;
   final IconData icon;
+  final Function act;
+  final c;
   final AnimationController animationController;
   final bool isSelected;
   final Function onTap;
+  int val;
 
   CollapsingListTile(
       {@required this.title,
       @required this.icon,
+      @required this.act,
+      this.c,
       @required this.animationController,
       this.isSelected = false,
-      this.onTap});
+      this.onTap,
+      this.val
+      });
 
   @override
-  _CollapsingListTileState createState() => _CollapsingListTileState();
+  _CollapsingListTileState createState() => _CollapsingListTileState(val: this.val);
 }
 
 class _CollapsingListTileState extends State<CollapsingListTile> {
   Animation<double> widthAnimation, sizedBoxAnimation;
+  int val;
+  _CollapsingListTileState({ this.val  });
 
   @override
   void initState() {
@@ -53,7 +62,7 @@ class _CollapsingListTileState extends State<CollapsingListTile> {
               size: 38.0,
             ),
             SizedBox(width: sizedBoxAnimation.value),
-            (widthAnimation.value >= 190)
+            (widthAnimation.value >= 200)
                 ? Text(widget.title,
                     style: widget.isSelected
                         ? listTitleSelectedTextStyle
