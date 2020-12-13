@@ -1,2 +1,7 @@
+==========================================pour key.jks
 mot de passe de js : manfaraetfils
 licence_privacy_url: https://www.privacypolicytemplate.net/live.php?token=owhNr3zLfl0Iv57M1OHMipFK38OFiUlC
+
+==========================================pour mykey.jks
+alias: manfara_et_fils
+mot de passe de js : manfara_et_fils
